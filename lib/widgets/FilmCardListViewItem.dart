@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-class FilmCardItem extends StatelessWidget {
+class FilmCardListViewItem extends StatelessWidget {
   String title,imagepath;
-   FilmCardItem({super.key,required this.title,required this.imagepath});
+  FilmCardListViewItem({super.key,required this.title,required this.imagepath});
 
   @override
   Widget build(BuildContext context) {

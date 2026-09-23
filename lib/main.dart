@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_workshops_5sae1_2627/GStore.dart';
+import 'package:flutter_workshops_5sae1_2627/screens/GStoreListView.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const Gstore(),
+      home: const GStoreListView(),
     );
   }
 }
